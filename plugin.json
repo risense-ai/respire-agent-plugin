@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "respire-memory",
+  "version": "1.0.0",
+  "description": "Portable respire (rsrs) memory plugin: Agent Skill for recall/remember workflows plus a stdio MCP server exposing memory tools to any Agent Plugins compatible client.",
+  "author": {
+    "name": "risense-ai",
+    "url": "https://github.com/risense-ai"
+  },
+  "homepage": "https://github.com/risense-ai/respire-agent-plugin",
+  "repository": "https://github.com/risense-ai/respire-agent-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "recall", "rsrs", "respire", "mcp", "skill"],
+  "extensions": {
+    "com.risense.respire": {
+      "displayName": "Respire Memory",
+      "engine": "rsrs",
+      "minCliVersion": "1.0.0",
+      "docs": "./com.risense.respire/README.md"
+    }
+  }
+}
